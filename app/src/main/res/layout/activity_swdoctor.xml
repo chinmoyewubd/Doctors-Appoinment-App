@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".SWDoctor">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Speciality"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvspeciality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Speciality"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="#ff8844"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#888888"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:id="@+id/tvSN"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="S/N"
+                android:gravity="center"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:background="#eeeeee"
+                android:layout_marginRight="1dp"/>
+            <TextView
+                android:id="@+id/tvID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Doctor's ID"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:background="#eeeeee"
+                android:layout_marginRight="1dp"/>
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Doctor Name"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:background="#eeeeee"
+                android:layout_marginRight="1dp"/>
+            <TextView
+                android:id="@+id/tvSpeciality"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Doctor Speciality"
+                android:gravity="center_vertical"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:background="#eeeeee"
+                android:layout_marginRight="1dp"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:dividerHeight="2dp"
+            android:id="@+id/lvSWDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#ff4400"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

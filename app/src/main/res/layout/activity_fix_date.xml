@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B2BEB5"
+    tools:context=".fixDate">
+
+
+    <RelativeLayout
+        android:id="@+id/LLBMD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/greenbri">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Make an Appointment"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Doctor Name"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+
+            android:background="@drawable/ip_bg_4"
+            android:layout_margin="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvSpeciality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Doctor Speciality"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/ip_bg_4"
+            android:layout_margin="4dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/ip_bg_4"
+            android:textColor="@color/greenbri"
+            android:textColorHint="@color/greenbri"
+
+            android:gravity="center_vertical"
+            android:padding="8dp"
+
+            android:text="Contact and time"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvContact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="123456789"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/ip_bg_4"
+            android:layout_margin="4dp"
+            android:textSize="14sp" />
+
+
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10:00 AM"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/ip_bg_4"
+            android:layout_margin="4dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextAppFullName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/ip_bg_4"
+        android:drawableLeft="@drawable/baseline_person_24_green"
+        android:drawablePadding="10dp"
+        android:hint="Patient Full Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/greenbri"
+        android:textColorHint="@color/greenbri" />
+
+    <EditText
+        android:id="@+id/editTextAppAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/ip_bg_4"
+        android:drawableLeft="@drawable/baseline_security_24"
+        android:drawablePadding="10dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:padding="10dp"
+        android:textColor="@color/greenbri"
+        android:textColorHint="@color/greenbri" />
+
+    <EditText
+        android:id="@+id/editTextAppContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/ip_bg_4"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/greenbri"
+        android:textColorHint="@color/greenbri" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose Appointment Date"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonAppDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="DD-MM-YYYY"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/greenbri"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_bg_2"
+        android:text="Book Appointment"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
