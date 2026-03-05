@@ -62,4 +62,10 @@ public class DoctorDB extends SQLiteOpenHelper {
         }
         return c;
     }
+
+    public void clearDoctorsTable() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete("doctor", null, null);
+        db.close();
+    }
 }

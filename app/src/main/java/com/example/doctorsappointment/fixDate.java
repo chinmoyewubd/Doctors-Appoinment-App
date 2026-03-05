@@ -33,6 +33,9 @@ public class fixDate extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fix_date);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         tvName = findViewById(R.id.tvName);
         tvSpeciality = findViewById(R.id.tvSpeciality);

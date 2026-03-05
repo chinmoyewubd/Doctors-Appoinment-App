@@ -31,6 +31,10 @@ public class SWDoctor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_swdoctor);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         lvSWDoctor = findViewById(R.id.lvSWDoctor);
         tvspeciality = findViewById(R.id.tvspeciality);
 

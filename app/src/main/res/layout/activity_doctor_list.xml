@@ -15,21 +15,28 @@
         android:orientation="horizontal">
 
         <TextView
+            android:layout_marginTop="25dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:padding="8dp"
-            android:text="All Doctors LIST"
+            android:text="ALL DOCTORS LIST"
             android:textColor="#000000"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="#95F297"/>
 
         <Button
             android:id="@+id/btnSpecialityWise"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="SpecialityWise" />
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="SpecialityWise"
+            android:backgroundTint="#50E256"
+            android:padding="2dp"
+            android:layout_margin="10dp"/>
 
 
     </LinearLayout>
@@ -59,19 +66,23 @@
                 android:text="S/N"
                 android:gravity="center"
                 android:paddingStart="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
+                android:background="#95F297"
                 android:layout_marginRight="1dp"/>
             <TextView
                 android:id="@+id/tvID"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:text="Doctor's ID"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:gravity="center"
                 android:layout_weight="0.6"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
+                android:background="#95F297"
                 android:layout_marginRight="1dp"/>
             <TextView
                 android:id="@+id/tvName"
@@ -79,10 +90,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Doctor Name"
-                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
+                android:background="#95F297"
                 android:layout_marginRight="1dp"/>
             <TextView
                 android:id="@+id/tvSpeciality"
@@ -90,21 +103,24 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Doctor Speciality"
-                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
+                android:background="#95F297"
                 android:layout_marginRight="1dp"/>
 
         </LinearLayout>
 
         <ListView
             android:id="@+id/lvDoctor"
-            android:dividerHeight="2dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff"
-            android:listSelector="#B4B0A5" />
+            android:dividerHeight="3dp"
+            android:listSelector="#FBF9F6"
+            android:textColor="@color/black" />
 
     </LinearLayout>
     <LinearLayout
@@ -115,16 +131,22 @@
             android:id="@+id/btnLoad"
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:layout_height="wrap_content"
             android:text="Lod All \nDoctor data"
-            android:backgroundTint="#ff4400"/>
+            android:textStyle="bold"
+            android:backgroundTint="#50E256"
+            android:textColor="@color/black"/>
         <Button
             android:id="@+id/btnAddDoctor"
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:layout_height="wrap_content"
             android:text="Add\nDoctor"
-            android:backgroundTint="#ff8800"/>
+            android:backgroundTint="#50E256"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 

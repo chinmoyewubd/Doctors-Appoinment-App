@@ -11,8 +11,10 @@
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#6EEB74">
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +54,6 @@
 
 
         <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -66,7 +67,9 @@
                 android:gravity="center"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
+                android:background="#9DF6A1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:layout_marginRight="1dp"/>
             <TextView
                 android:id="@+id/tvID"
@@ -77,8 +80,10 @@
                 android:layout_weight="0.6"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
-                android:layout_marginRight="1dp"/>
+                android:layout_marginRight="1dp"
+                android:background="#9DF6A1"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/tvName"
                 android:layout_width="0dp"
@@ -88,19 +93,24 @@
                 android:gravity="center_vertical"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
-                android:layout_marginRight="1dp"/>
+                android:layout_marginRight="1dp"
+                android:background="#9DF6A1"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
             <TextView
                 android:id="@+id/tvSpeciality"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:text="Doctor Speciality"
                 android:gravity="center_vertical"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp"
-                android:background="#eeeeee"
-                android:layout_marginRight="1dp"/>
+                android:text="Doctor Speciality"
+                android:background="#9DF6A1"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
@@ -109,7 +119,8 @@
             android:id="@+id/lvSWDoctor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ffffff" />
+            android:background="#ffffff"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
     <LinearLayout
@@ -121,8 +132,12 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Back"
-            android:backgroundTint="#ff4400"/>
+            android:text="Load"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:backgroundTint="#48E24E"/>
 
     </LinearLayout>
 

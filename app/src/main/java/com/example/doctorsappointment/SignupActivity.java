@@ -43,8 +43,8 @@ public class SignupActivity extends Activity {
         etPhone = findViewById(R.id.etPhone);
         etPassword = findViewById(R.id.etPassword);
         etConfirmPassword = findViewById(R.id.etConfirmPassword);
-        cbRememberUser = findViewById(R.id.cbRememberUser);
-        cbRememberLogin = findViewById(R.id.cbRememberLogin);
+        cbRememberUser = findViewById(R.id.cbRemUser);
+        cbRememberLogin = findViewById(R.id.cbRemLogin);
         btnLogin = findViewById(R.id.btnLogin);
         btnSignInstructor = findViewById(R.id.btnSignInstructor);
         btnSignStudent = findViewById(R.id.btnSignStudent);
@@ -71,6 +71,8 @@ public class SignupActivity extends Activity {
             public void onClick(View v) {
 
                 processSignup(false);
+                goToLoginPage();
+
             }
         });
     }

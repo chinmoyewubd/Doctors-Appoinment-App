@@ -19,7 +19,8 @@
             android:paddingStart="4dp"
             android:paddingEnd="4dp"
             android:background="#eeeeee"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tvID"
             android:layout_width="0dp"
@@ -31,7 +32,8 @@
             android:paddingEnd="4dp"
             android:background="#eeeeee"
             android:layout_marginRight="1dp"
-            android:layout_marginBottom="1dp"/>
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tvName"
             android:layout_width="0dp"
@@ -43,7 +45,8 @@
             android:paddingEnd="4dp"
             android:background="#eeeeee"
             android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tvSpeciality"
             android:layout_width="0dp"
@@ -55,7 +58,8 @@
             android:paddingEnd="4dp"
             android:background="#eeeeee"
             android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="@color/black"/>
 
 
 
@@ -73,13 +77,15 @@
             android:paddingEnd="4dp"
             android:background="#eeeeee"
             android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="@color/black"/>
         <TextView
 
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.20"
             android:text="Contanct:"
+            android:textColor="@color/black"
             android:gravity="center"
             android:layout_marginBottom="1dp"
             android:background="#eeeeee"/>
@@ -91,7 +97,8 @@
             android:text="Contanct"
             android:gravity="center"
             android:layout_marginBottom="1dp"
-            android:background="#eeeeee"/>
+            android:background="#eeeeee"
+            android:textColor="@color/black"/>
         <TextView
 
             android:layout_width="0dp"
@@ -100,7 +107,8 @@
             android:text="Time:"
             android:gravity="center"
             android:layout_marginBottom="1dp"
-            android:background="#eeeeee"/>
+            android:background="#eeeeee"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/tvTime"
             android:layout_width="0dp"
@@ -110,7 +118,8 @@
             android:gravity="center"
             android:background="#eeeeee"
             android:layout_marginBottom="1dp"
-            android:layout_marginRight="1dp"/>
+            android:layout_marginRight="1dp"
+            android:textColor="@color/black"/>
 
 
     </LinearLayout>

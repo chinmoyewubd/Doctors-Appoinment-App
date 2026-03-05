@@ -5,23 +5,23 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green3"
+    android:background="#6EDE73"
     tools:context=".FindDoctorActivity">
 
 
     <TextView
         android:id="@+id/titleFindDoctorTop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="12dp"
-
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="12dp"
         android:text="Specialty"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"></TextView>
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
 
     <GridLayout
         android:layout_width="match_parent"
@@ -53,14 +53,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/tongquat"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="General"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -89,7 +89,7 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/dinhduong"></ImageView>
 
                 <TextView
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:text="Nutrition"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -126,7 +126,7 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/khoanhi"></ImageView>
 
                 <TextView
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:text="Pediatrics"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -162,14 +162,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/chinhnha"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Dentist"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -197,14 +197,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/phauthuat"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Surgeon"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -232,14 +232,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/bacsimat"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Eye"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -267,14 +267,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/timmach"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cardiology"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -302,14 +302,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/xuongkhop"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Orthopedics"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 
@@ -337,14 +337,14 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="70dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/bsthankinh"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nervous System"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
 

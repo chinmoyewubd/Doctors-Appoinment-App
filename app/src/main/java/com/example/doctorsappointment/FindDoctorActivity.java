@@ -22,6 +22,10 @@ public class FindDoctorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_find_doctor);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         cardFDGeneral = findViewById(R.id.cardFDGeneral);
         cardFDNutrition = findViewById(R.id.cardFDNutrition);
         cardFDPediatrics = findViewById(R.id.cardFDPediatrics);

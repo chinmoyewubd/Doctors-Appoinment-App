@@ -36,25 +36,15 @@ public class AddDoctorActivity extends AppCompatActivity {
 
     private Button btnSave,btnStartTime,btnEndTime;
 
-    private ListView lvDoctor;
-
-    private String course = "CSE489";
-    private int section = 2;
-
-    private String selectedAction = null;
-    private ArrayList<Doctor> records = new ArrayList<>();
-    private CustomDoctorAdapter adapter;
-    private boolean shouldUpdate = false;
-
-
-
-
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_doctor);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         etId = findViewById(R.id.etId);
         etName = findViewById(R.id.etName);
@@ -135,7 +125,7 @@ public class AddDoctorActivity extends AppCompatActivity {
                         btnStartTime.setText(formattedTime);
 
                         // Convert time to milliseconds if needed
-                     long selectedTimeInMillis = getTimeInMilliseconds(hourOfDay, minute);
+                        long selectedTimeInMillis = getTimeInMilliseconds(hourOfDay, minute);
 
                         selectedStartTimeInMillis=selectedTimeInMillis;
 

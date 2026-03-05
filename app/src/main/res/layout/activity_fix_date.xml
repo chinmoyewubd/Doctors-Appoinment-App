@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#B2BEB5"
+    android:background="#79F699"
     tools:context=".fixDate">
 
 
     <RelativeLayout
         android:id="@+id/LLBMD"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:background="@color/greenbri">
 
         <TextView
@@ -22,8 +22,8 @@
             android:layout_centerInParent="true"
             android:text="Make an Appointment"
             android:textColor="@color/white"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textSize="35sp"
+            android:textStyle="bold"/>
 
     </RelativeLayout>
 
@@ -42,10 +42,10 @@
             android:text="Doctor Name"
             android:gravity="center_vertical"
             android:padding="8dp"
-
             android:background="@drawable/ip_bg_4"
             android:layout_margin="4dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/tvSpeciality"
@@ -57,7 +57,8 @@
             android:padding="8dp"
             android:background="@drawable/ip_bg_4"
             android:layout_margin="4dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -74,14 +75,13 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:background="@drawable/ip_bg_4"
-            android:textColor="@color/greenbri"
+            android:textColor="@color/black"
             android:textColorHint="@color/greenbri"
-
             android:gravity="center_vertical"
             android:padding="8dp"
-
             android:text="Contact and time"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            />
 
         <TextView
             android:id="@+id/tvContact"
@@ -93,7 +93,8 @@
             android:padding="8dp"
             android:background="@drawable/ip_bg_4"
             android:layout_margin="4dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
 
 
 
@@ -104,6 +105,7 @@
             android:layout_weight="1"
             android:text="10:00 AM"
             android:gravity="center_vertical"
+            android:textColor="@color/black"
             android:padding="8dp"
             android:background="@drawable/ip_bg_4"
             android:layout_margin="4dp"
@@ -166,7 +168,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Choose Appointment Date"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <Button

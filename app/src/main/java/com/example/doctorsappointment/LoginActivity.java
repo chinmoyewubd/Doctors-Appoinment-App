@@ -23,6 +23,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
@@ -74,11 +77,11 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 boolean isInstructor = sp.getBoolean("IS-INSTRUCTOR", false);
                 if(!isInstructor) {
-                    Intent i = new Intent(LoginActivity.this, null); // need to add Student's Home Activity class here
+                    Intent i = new Intent(LoginActivity.this, DoctorListActivity.class); // need to add Student's Home Activity class here
                     startActivity(i);
                     finishAffinity();
                 } else {
-                    Toast.makeText(LoginActivity.this, "You can't login as a student", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, "You can't login as a Patient", Toast.LENGTH_LONG).show();
                 }
             }
         });
