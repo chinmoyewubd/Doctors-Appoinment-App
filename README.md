@@ -1,9 +1,5 @@
 # Doctor's Appointment App
 
-[![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg)](https://developer.android.com/)
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg)](https://android-arsenal.com/api?level=21)
-[![Firebase](https://img.shields.io/badge/Firebase-Realtime%20DB-orange)](https://firebase.google.com/)
-
 A comprehensive Android application designed to streamline the process of booking and managing medical appointments. This app acts as a digital bridge between patients and doctors, making healthcare more accessible, efficient, and user-friendly.
 
 ## 📱 Project Overview
@@ -51,4 +47,4 @@ The project follows a standard Android development lifecycle with a clear separa
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/doctors-appointment-app.git
+    git clone (https://github.com/chinmoyewubd/Doctors-Appoinment-App.git)
